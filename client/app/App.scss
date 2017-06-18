@@ -1,0 +1,43 @@
+body {
+  background-color: #f4e1c8;
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  width: 100%;
+
+.App{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  .App-header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #FFF;
+    border-bottom: 20px #F4EDE5 solid;
+    margin-bottom: 20px;
+
+    h2{ width: 100%; }
+  }
+
+  form {
+    input{ 
+      width: 200px;
+      outline: none;
+      &.error{
+        border: 2px solid red;
+      }
+
+    }
+    button{ display: block; margin: 15px auto;}
+  }
+
+  }
+
+  .show-link{
+    margin: 10px;
+    a{ color: black; }
+  }
+}

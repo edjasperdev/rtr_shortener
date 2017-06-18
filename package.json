@@ -1,0 +1,23 @@
+{
+  "name": "rtr-shortner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "SHORT_DOMAIN=http://rtr.co nodemon ./app.js",
+    "debug": "SHORT_DOMAIN=http://rtr.co node --inspect ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "firebase": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-register": "^6.24.1"
+  }
+}
